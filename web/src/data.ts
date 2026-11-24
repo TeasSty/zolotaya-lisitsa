@@ -1,3 +1,5 @@
+import { asset } from "./asset";
+
 export const SITE = {
   name: "Золотая Лисица",
   nameEn: "Golden Fox",
@@ -25,17 +27,17 @@ export const NAV = [
 
 export const WORKS = [
   {
-    src: "/images/work-nails.jpg",
+    src: asset("images/work-nails.jpg"),
     alt: "Маникюр с покрытием",
     label: "Маникюр",
   },
   {
-    src: "/images/work-hair.jpg",
+    src: asset("images/work-hair.jpg"),
     alt: "Женская стрижка и укладка",
     label: "Стрижки",
   },
   {
-    src: "/images/work-kids.jpg",
+    src: asset("images/work-kids.jpg"),
     alt: "Детская стрижка",
     label: "Детские стрижки",
   },
@@ -82,14 +84,14 @@ export const MASTERS = [
   {
     name: "Парикмахерские услуги",
     role: "Стрижки, окрашивание, укладки",
-    src: "/images/master-1.jpg",
+    src: asset("images/master-1.jpg"),
     blurb:
       "Женские, мужские и детские стрижки, окрашивание, причёски и плетения — под ваш образ.",
   },
   {
     name: "Маникюр",
     role: "Ногтевой сервис",
-    src: "/images/master-2.jpg",
+    src: asset("images/master-2.jpg"),
     blurb: "Аккуратный маникюр и покрытие. Запись к мастеру — по телефону или в Dikidi.",
   },
 ] as const;

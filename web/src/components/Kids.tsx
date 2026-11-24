@@ -1,3 +1,4 @@
+import { asset } from "../asset";
 import { SITE } from "../data";
 
 export function Kids() {
@@ -5,7 +6,7 @@ export function Kids() {
     <section className="kids section" id="kids">
       <div className="kids__visual reveal" aria-hidden="true">
         <img
-          src="/images/kids.jpg"
+          src={asset("images/kids.jpg")}
           alt=""
           width={1600}
           height={900}

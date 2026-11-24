@@ -1,3 +1,5 @@
+import { asset } from "../asset";
+
 type LogoProps = {
   className?: string;
   title?: string;
@@ -14,7 +16,11 @@ export function LogoMark({
   return (
     <img
       className={`logo-mark ${className}`.trim()}
-      src={solid ? "/images/logo-mark-disc.png" : "/images/logo-mark.png"}
+      src={
+        solid
+          ? asset("images/logo-mark-disc.png")
+          : asset("images/logo-mark.png")
+      }
       alt={title}
       width={720}
       height={720}

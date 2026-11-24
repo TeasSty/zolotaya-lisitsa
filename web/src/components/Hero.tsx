@@ -1,3 +1,4 @@
+import { asset } from "../asset";
 import { SITE } from "../data";
 
 export function Hero() {
@@ -5,7 +6,7 @@ export function Hero() {
     <section className="hero" id="top" aria-label="Главный экран">
       <div className="hero__media" aria-hidden="true">
         <img
-          src="/images/hero.jpg"
+          src={asset("images/hero.jpg")}
           alt=""
           className="hero__img"
           width={1920}
