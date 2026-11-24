@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="none" role="img" aria-label="Золотая Лисица">
+  <circle cx="60" cy="60" r="58" fill="#1E1714"/>
+  <!-- wreath -->
+  <path
+    d="M60 10c-8 10-14 22-14 36 0 8 2 15 6 21-7-4-12-12-12-22 0-16 8-30 20-35z"
+    stroke="#C4782A"
+    stroke-width="1.6"
+    fill="none"
+    opacity="0.95"
+  />
+  <path
+    d="M60 10c8 10 14 22 14 36 0 8-2 15-6 21 7-4 12-12 12-22 0-16-8-30-20-35z"
+    stroke="#C4782A"
+    stroke-width="1.6"
+    fill="none"
+    opacity="0.95"
+  />
+  <path
+    d="M28 78c8 14 20 24 32 28 12-4 24-14 32-28"
+    stroke="#C4782A"
+    stroke-width="1.6"
+    fill="none"
+  />
+  <path d="M36 42c-2 8 0 16 4 22" stroke="#C4782A" stroke-width="1.2" fill="none" opacity="0.7"/>
+  <path d="M84 42c2 8 0 16-4 22" stroke="#C4782A" stroke-width="1.2" fill="none" opacity="0.7"/>
+  <!-- leaf ticks -->
+  <path d="M42 22l-4 6M48 16l-2 7M72 16l2 7M78 22l4 6M34 54l-6 3M86 54l6 3M38 68l-5 5M82 68l5 5" stroke="#C4782A" stroke-width="1.2" stroke-linecap="round"/>
+  <!-- monogram ЗЛ -->
+  <text
+    x="60"
+    y="68"
+    text-anchor="middle"
+    font-family="Georgia, 'Times New Roman', serif"
+    font-size="34"
+    font-weight="700"
+    fill="#C4782A"
+    letter-spacing="2"
+  >ЗЛ</text>
+</svg>
